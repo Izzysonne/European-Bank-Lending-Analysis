@@ -1,3 +1,8 @@
+# Load helper functions
+source("R/01_packages_helpers.R")
+
+# Load prepared dataset
+d <- readr::read_csv("bank_panel_regression_ready_2009_2022_clean_winsor.csv")
 
 # ============================================================
 # 9) Robustness
