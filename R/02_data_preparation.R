@@ -1,3 +1,5 @@
+# Load helper functions
+source("R/01_packages_helpers.R")
 
 # ============================================================
 # 0) Eurozone mapping: BankFocus country name -> ISO2 (ref_area)
